@@ -1,0 +1,6 @@
+.zig-cache/
+zig-out/
+zig-out-rel/
+zig-out-safe/
+zig-out-base/
+zig-out-prof/

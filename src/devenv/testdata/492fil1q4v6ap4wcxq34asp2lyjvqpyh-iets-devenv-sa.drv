@@ -1,0 +1,1 @@
+Derive([("out","/nix/store/w9gnh06clzfidf2bjpmra2dmwrpjn7p0-iets-devenv-sa","","")],[],[],"x86_64-linux","/no/bash",[],[("__json","{\"allowedReferences\":[],\"builder\":\"/no/bash\",\"name\":\"iets-devenv-sa\",\"outputChecks\":{\"out\":{\"maxSize\":10}},\"system\":\"x86_64-linux\",\"x\":1.5}"),("out","/nix/store/w9gnh06clzfidf2bjpmra2dmwrpjn7p0-iets-devenv-sa")])

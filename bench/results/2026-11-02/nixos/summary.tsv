@@ -1,0 +1,82 @@
+workload	row	wall_ms	min_ms	max_ms	maxrss_mb
+nixos-minimal	nix	1722	1711	1727	599
+nixos-minimal	fix w1 cold	2031	2026	2039	1285
+nixos-minimal	fix w4 cold	904	867	908	1405
+nixos-minimal	fix w8 cold	648	635	658	1388
+nixos-minimal	fix w12 cold	691	652	718	1533
+nixos-minimal	fix w1 warm	1592	1587	1769	1270
+nixos-minimal	fix w4 warm	760	675	794	1341
+nixos-minimal	fix w8 warm	583	561	592	1336
+nixos-minimal	fix w12 warm	609	594	615	1347
+nixos-minimal	detsys c1	1777	1776	1782	721
+nixos-minimal	detsys c4	1507	1498	1525	781
+nixos-minimal	detsys c8	1474	1465	1481	840
+nixos-minimal	detsys c0	1522	1465	1547	1038
+nixos-minimal	iets w1 cold	717	716	721	600
+nixos-minimal	iets w4 cold	399	396	402	783
+nixos-minimal	iets w8 cold	367	362	369	926
+nixos-minimal	iets w1 warm	587	583	589	548
+nixos-minimal	iets w4 warm	315	312	342	693
+nixos-minimal	iets w8 warm	291	286	299	843
+nixos-minimal	iets hit	7	7	8	21
+nixos-minimal	iets-zig w1 cold	589	589	591	508
+nixos-minimal	iets-zig w4 cold	289	288	291	616
+nixos-minimal	iets-zig w8 cold	252	252	255	690
+nixos-minimal	iets-zig w1 warm	510	509	514	484
+nixos-minimal	iets-zig w4 warm	253	252	254	538
+nixos-minimal	iets-zig w8 warm	227	226	228	579
+nixos-minimal	iets-zig hit	5	5	6	7
+nixos-server	nix	2130	2122	2137	625
+nixos-server	fix w1 cold	2582	2578	2586	1817
+nixos-server	fix w4 cold	1189	1149	1235	1997
+nixos-server	fix w8 cold	940	936	944	1994
+nixos-server	fix w12 cold	955	949	1000	1971
+nixos-server	fix w1 warm	2109	2100	2304	1802
+nixos-server	fix w4 warm	1048	1037	1124	2003
+nixos-server	fix w8 warm	863	852	878	1967
+nixos-server	fix w12 warm	862	851	895	1927
+nixos-server	detsys c1	2234	2232	2255	870
+nixos-server	detsys c4	1885	1881	1894	955
+nixos-server	detsys c8	1846	1823	1856	1020
+nixos-server	detsys c0	1907	1828	1912	1243
+nixos-server	iets w1 cold	906	904	909	705
+nixos-server	iets w4 cold	489	488	490	907
+nixos-server	iets w8 cold	454	445	470	988
+nixos-server	iets w1 warm	773	770	775	653
+nixos-server	iets w4 warm	404	401	420	838
+nixos-server	iets w8 warm	362	359	382	958
+nixos-server	iets hit	14	14	15	25
+nixos-server	iets-zig w1 cold	757	757	758	622
+nixos-server	iets-zig w4 cold	372	370	376	729
+nixos-server	iets-zig w8 cold	319	314	332	802
+nixos-server	iets-zig w1 warm	675	674	682	599
+nixos-server	iets-zig w4 warm	334	334	342	655
+nixos-server	iets-zig w8 warm	297	291	306	691
+nixos-server	iets-zig hit	12	11	12	8
+nixos-plasma	nix	3203	3196	3211	841
+nixos-plasma	fix w1 cold	3663	3643	3673	2614
+nixos-plasma	fix w4 cold	1620	1593	1633	2596
+nixos-plasma	fix w8 cold	1279	1260	1295	2717
+nixos-plasma	fix w12 cold	1340	1310	1395	2793
+nixos-plasma	fix w1 warm	3136	3131	3373	2618
+nixos-plasma	fix w4 warm	1441	1389	1665	2600
+nixos-plasma	fix w8 warm	1142	1107	1199	2614
+nixos-plasma	fix w12 warm	1215	1166	1239	2651
+nixos-plasma	detsys c1	3268	3254	3294	1189
+nixos-plasma	detsys c4	2408	2390	2416	1269
+nixos-plasma	detsys c8	2259	2252	2270	1345
+nixos-plasma	detsys c0	2309	2300	2321	1680
+nixos-plasma	iets w1 cold	1296	1292	1298	848
+nixos-plasma	iets w4 cold	628	620	635	1092
+nixos-plasma	iets w8 cold	548	542	557	1238
+nixos-plasma	iets w1 warm	1154	1152	1160	837
+nixos-plasma	iets w4 warm	533	527	543	1023
+nixos-plasma	iets w8 warm	460	447	479	1177
+nixos-plasma	iets hit	15	15	16	26
+nixos-plasma	iets-zig w1 cold	1104	1097	1106	830
+nixos-plasma	iets-zig w4 cold	485	483	489	923
+nixos-plasma	iets-zig w8 cold	391	389	399	1016
+nixos-plasma	iets-zig w1 warm	1016	1012	1019	808
+nixos-plasma	iets-zig w4 warm	446	440	448	859
+nixos-plasma	iets-zig w8 warm	358	357	371	908
+nixos-plasma	iets-zig hit	12	12	13	8

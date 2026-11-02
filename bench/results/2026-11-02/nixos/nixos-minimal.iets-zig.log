@@ -1,0 +1,35 @@
+Benchmark 1: w1 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    589.4 ms  ±     0.9 ms     588.7 ms  …   590.9 ms
+  Memory       508.2 MiB ±     0.0 MiB    508.2 MiB …   508.3 MiB
+ 
+Benchmark 2: w4 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    289.5 ms  ±     1.2 ms     287.9 ms  …   290.9 ms           -50.9%  (2.0x faster)
+  Memory       617.3 MiB ±     3.8 MiB    613.4 MiB …   623.0 MiB          +21.5%
+ 
+Benchmark 3: w8 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    252.7 ms  ±     1.3 ms     251.7 ms  …   254.7 ms           -57.1%  (2.3x faster)
+  Memory       689.7 MiB ±     6.0 MiB    683.2 MiB …   699.2 MiB          +35.7%  (1.4x more)
+ 
+Benchmark 4: w1 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    510.6 ms  ±     1.8 ms     509.3 ms  …   513.6 ms           -13.4%
+  Memory       484.0 MiB ±     0.0 MiB    483.9 MiB …   484.0 MiB           -4.8%
+ 
+Benchmark 5: w4 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    252.8 ms  ±     0.6 ms     252.1 ms  …   253.7 ms           -57.1%  (2.3x faster)
+  Memory       536.0 MiB ±     3.5 MiB    531.0 MiB …   539.4 MiB           +5.5%
+ 
+Benchmark 6: w8 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    227.0 ms  ±     0.8 ms     225.8 ms  …   227.9 ms           -61.5%  (2.6x faster)
+  Memory       579.2 MiB ±     8.0 MiB    569.2 MiB …   589.1 MiB          +14.0%
+ 
+Benchmark 7: hit (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time      5.4 ms  ±     0.4 ms       5.1 ms  …     6.0 ms           -99.1%  (108.4x faster)
+  Memory         7.0 MiB ±     0.1 MiB      6.9 MiB …     7.2 MiB          -98.6%  (72.6x less)
+ 

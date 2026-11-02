@@ -1,0 +1,20 @@
+Benchmark 1: detsys c1 (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    2.238 s   ±   0.009 s      2.232 s   …   2.255 s
+  Memory       869.6 MiB ±     0.1 MiB    869.5 MiB …   869.8 MiB
+ 
+Benchmark 2: detsys c4 (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.887 s   ±   0.006 s      1.881 s   …   1.894 s            -15.7%
+  Memory       954.9 MiB ±     1.9 MiB    952.4 MiB …   956.7 MiB           +9.8%
+ 
+Benchmark 3: detsys c8 (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.842 s   ±   0.013 s      1.823 s   …   1.856 s            -17.7%
+  Memory      1020.2 MiB ±     2.1 MiB   1018.1 MiB …  1022.6 MiB          +17.3%
+ 
+Benchmark 4: detsys c0 (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.889 s   ±   0.035 s      1.828 s   …   1.912 s            -15.6%
+  Memory      1244.5 MiB ±     3.4 MiB   1241.1 MiB …  1248.7 MiB          +43.1%  (1.4x more)
+ 

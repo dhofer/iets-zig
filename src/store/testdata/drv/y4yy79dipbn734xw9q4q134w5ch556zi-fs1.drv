@@ -1,0 +1,1 @@
+Derive([("out","/nix/store/nawmi4lnsz5x8kk5pf3j4afk5smhklqr-fs1","sha1","a9993e364706816aba3e25717850c26c9cd0d89d")],[],[],"x86_64-linux","/bin/sh",[],[("builder","/bin/sh"),("name","fs1"),("out","/nix/store/nawmi4lnsz5x8kk5pf3j4afk5smhklqr-fs1"),("outputHash","a9993e364706816aba3e25717850c26c9cd0d89d"),("outputHashAlgo","sha1"),("system","x86_64-linux")])

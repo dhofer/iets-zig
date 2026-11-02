@@ -1,0 +1,5 @@
+archive	tool	wall_s	user_s	sys_s	maxrss_mb
+tar.zst	iets	0.58	0.70	0.24	311
+tar.zst	iets-zig	0.46	0.81	0.13	462
+tar.gz	iets	0.80	0.83	0.32	317
+tar.gz	iets-zig	0.68	1.05	0.13	476

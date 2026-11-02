@@ -1,0 +1,7 @@
+iets w1 cold
+iets w4 cold
+iets w8 cold
+iets w1 warm
+iets w4 warm
+iets w8 warm
+iets hit

@@ -1,0 +1,46 @@
+Benchmark 1: nix (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    3.202 s   ±   0.006 s      3.196 s   …   3.211 s
+  Memory       841.2 MiB ±     0.6 MiB    840.6 MiB …   842.0 MiB
+ 
+Benchmark 8: fix w1 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    3.662 s   ±   0.012 s      3.643 s   …   3.673 s
+  Memory      2614.4 MiB ±     0.3 MiB   2614.0 MiB …  2614.8 MiB
+ 
+Benchmark 9: fix w4 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.616 s   ±   0.015 s      1.593 s   …   1.633 s
+  Memory      2595.8 MiB ±    27.1 MiB   2554.4 MiB …  2621.5 MiB
+ 
+Benchmark 10: fix w8 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.280 s   ±   0.013 s      1.260 s   …   1.295 s
+  Memory      2725.1 MiB ±    19.5 MiB   2705.0 MiB …  2750.9 MiB
+ 
+Benchmark 11: fix w12 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.345 s   ±   0.034 s      1.310 s   …   1.395 s
+  Memory      2793.8 MiB ±    22.4 MiB   2770.9 MiB …  2828.4 MiB
+ 
+Benchmark 18: fix w1 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    3.182 s   ±   0.107 s      3.131 s   …   3.373 s
+  Memory      2619.7 MiB ±     4.3 MiB   2617.6 MiB …  2627.3 MiB
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (3.373 s). This could be caused by (filesystem) caches that were not filled until after the first run. You are already using the '--warmup' option which helps to fill these caches before the actual benchmark. You can either try to increase the warmup count further or re-run this benchmark on a quiet system in case it was a random outlier. Alternatively, consider using the '--prepare' option to clear the caches before each timing run.
+ 
+Benchmark 19: fix w4 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.473 s   ±   0.109 s      1.389 s   …   1.665 s
+  Memory      2597.2 MiB ±    63.2 MiB   2539.8 MiB …  2693.7 MiB
+ 
+Benchmark 20: fix w8 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.150 s   ±   0.034 s      1.107 s   …   1.199 s
+  Memory      2618.5 MiB ±    32.5 MiB   2585.7 MiB …  2658.6 MiB
+ 
+Benchmark 21: fix w12 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.210 s   ±   0.029 s      1.166 s   …   1.239 s
+  Memory      2642.5 MiB ±    20.0 MiB   2610.5 MiB …  2661.0 MiB

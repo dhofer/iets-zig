@@ -1,0 +1,7 @@
+iets-zig w1 cold
+iets-zig w4 cold
+iets-zig w8 cold
+iets-zig w1 warm
+iets-zig w4 warm
+iets-zig w8 warm
+iets-zig hit

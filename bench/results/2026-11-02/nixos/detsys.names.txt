@@ -1,0 +1,4 @@
+detsys c1
+detsys c4
+detsys c8
+detsys c0

@@ -1,0 +1,35 @@
+Benchmark 1: iets w1 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.296 s   ±   0.002 s      1.292 s   …   1.298 s
+  Memory       848.4 MiB ±     0.2 MiB    848.1 MiB …   848.6 MiB
+ 
+Benchmark 2: iets w4 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    0.629 s   ±   0.006 s      0.620 s   …   0.635 s            -51.5%  (2.1x faster)
+  Memory      1080.9 MiB ±    25.0 MiB   1046.4 MiB …  1108.3 MiB          +27.4%
+ 
+Benchmark 3: iets w8 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    0.548 s   ±   0.006 s      0.542 s   …   0.557 s            -57.7%  (2.4x faster)
+  Memory      1234.6 MiB ±    36.2 MiB   1182.0 MiB …  1282.4 MiB          +45.5%  (1.5x more)
+ 
+Benchmark 4: iets w1 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    1.155 s   ±   0.004 s      1.152 s   …   1.160 s            -10.8%
+  Memory       836.6 MiB ±     0.1 MiB    836.4 MiB …   836.7 MiB           -1.4%
+ 
+Benchmark 5: iets w4 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    0.534 s   ±   0.007 s      0.527 s   …   0.543 s            -58.7%  (2.4x faster)
+  Memory      1016.9 MiB ±    27.8 MiB    990.0 MiB …  1056.5 MiB          +19.9%
+ 
+Benchmark 6: iets w8 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    0.463 s   ±   0.015 s      0.447 s   …   0.479 s            -64.3%  (2.8x faster)
+  Memory      1175.7 MiB ±    16.1 MiB   1153.8 MiB …  1194.0 MiB          +38.6%  (1.4x more)
+ 
+Benchmark 7: iets hit (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    0.015 s   ±   0.000 s      0.015 s   …   0.016 s            -98.8%  (83.8x faster)
+  Memory        26.3 MiB ±     1.2 MiB     25.2 MiB …    27.7 MiB          -96.9%  (32.3x less)
+ 

@@ -1,0 +1,37 @@
+Benchmark 1: iets w1 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    718.0 ms  ±     2.3 ms     715.5 ms  …   720.8 ms
+  Memory       600.1 MiB ±     0.2 MiB    599.8 MiB …   600.3 MiB
+ 
+Benchmark 2: iets w4 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    399.2 ms  ±     2.5 ms     396.0 ms  …   402.4 ms           -44.4%  (1.8x faster)
+  Memory       787.1 MiB ±    22.7 MiB    758.4 MiB …   820.7 MiB          +31.2%  (1.3x more)
+ 
+Benchmark 3: iets w8 cold (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    366.0 ms  ±     2.5 ms     362.3 ms  …   368.5 ms           -49.0%  (2.0x faster)
+  Memory       929.9 MiB ±    12.3 MiB    918.4 MiB …   947.4 MiB          +55.0%  (1.5x more)
+ 
+Benchmark 4: iets w1 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    586.4 ms  ±     2.5 ms     582.7 ms  …   589.0 ms           -18.3%
+  Memory       548.0 MiB ±     0.3 MiB    547.6 MiB …   548.3 MiB           -8.7%
+ 
+Benchmark 5: iets w4 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    320.0 ms  ±    12.7 ms     312.1 ms  …   342.5 ms           -55.4%  (2.2x faster)
+  Memory       705.5 MiB ±    20.4 MiB    688.8 MiB …   736.5 MiB          +17.6%
+ 
+Benchmark 6: iets w8 warm (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time    292.1 ms  ±     5.5 ms     286.3 ms  …   299.3 ms           -59.3%  (2.5x faster)
+  Memory       849.4 MiB ±    22.7 MiB    822.7 MiB …   880.5 MiB          +41.6%  (1.4x more)
+ 
+Benchmark 7: iets hit (5 runs)
+                mean     ±       σ          min     …     max
+  Wall Time      7.0 ms  ±     0.4 ms       6.8 ms  …     7.7 ms           -99.0%  (102.1x faster)
+  Memory        21.3 MiB ±     0.2 MiB     21.0 MiB …    21.5 MiB          -96.5%  (28.2x less)
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (7.7 ms). This could be caused by (filesystem) caches that were not filled until after the first run. You are already using the '--warmup' option which helps to fill these caches before the actual benchmark. You can either try to increase the warmup count further or re-run this benchmark on a quiet system in case it was a random outlier. Alternatively, consider using the '--prepare' option to clear the caches before each timing run.
+ 

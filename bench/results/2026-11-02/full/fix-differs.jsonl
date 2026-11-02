@@ -1,0 +1,16 @@
+{"key":"librelane.x86_64-linux","value":"/nix/store/0c2saq8yc1xnrnjml5yjh160m7305lxs-librelane-3.0.14.drv"}
+{"key":"nixosTests.simple-container.x86_64-linux","value":"/nix/store/ghv4l9dzb6jvpj12fawikxf0vnid44li-container-test-run-simple-container.drv"}
+{"key":"nixosTests.simple-vm.x86_64-linux","value":"/nix/store/9fb830gr60cip2f5xyjhhkjw4616bmni-vm-test-run-simple-vm.drv"}
+{"key":"openroad.x86_64-linux","value":"/nix/store/1mq63r7llkbmq0pd8c44ja93b0ii1l7w-openroad-26Q2.drv"}
+{"key":"or-tools.x86_64-linux","value":"/nix/store/24l0jwfr7ahsbv78pywwrxzij5jk5n4a-or-tools-9.15.drv"}
+{"key":"python313Packages.ortools.x86_64-linux","value":"/nix/store/730gpw1h548yz4jv65wg308gwn4ys78j-python3.13-ortools-9.15.drv"}
+{"key":"python313Packages.slothy.x86_64-linux","value":"/nix/store/mi07i7j8634cqvqyg650wjr8b3jwrz59-python3.13-slothy-0.2.2.drv"}
+{"key":"python314Packages.ortools.x86_64-linux","value":"/nix/store/28yi2qh3l8r2kg8mbpvam6ffwhwjz40r-python3.14-ortools-9.15.drv"}
+{"key":"python314Packages.slothy.x86_64-linux","value":"/nix/store/f51b7lnzvxbggbfa6wk7p9w7clqyyjqz-python3.14-slothy-0.2.2.drv"}
+{"key":"slothy.x86_64-linux","value":"/nix/store/8ykrm6m123ivbswqpin9w6bz3dllcjwc-python3.14-slothy-0.2.2.drv"}
+{"key":"tests.nixos-functions.nixos-test.x86_64-linux","value":"/nix/store/crvwhwy9kpmwgql486yhlarx9rxa2gms-nixos-system-nixos-test.drv"}
+{"key":"tests.testers.lycheeLinkCheck.network.x86_64-linux","value":"/nix/store/7m2ywfjq5lk6d41f7x89qfblfydp9k3y-vm-test-run-testers-lychee-link-check-run.drv"}
+{"key":"tests.testers.nixosTest-example.x86_64-linux","value":"/nix/store/xcfr1q4d311syzaya0jxshk8k5hyjrgb-vm-test-run-nixosTest-test.drv"}
+{"key":"tests.testers.runNixOSTest-example.x86_64-linux","value":"/nix/store/z54yck77sz1b24gkf8zf323ip7kxlb6d-vm-test-run-runNixOSTest-test.drv"}
+{"key":"tests.testers.runNixOSTest-extendNixOS.x86_64-linux","value":"/nix/store/z54yck77sz1b24gkf8zf323ip7kxlb6d-vm-test-run-runNixOSTest-test.drv"}
+{"key":"tests.trivial-builders.references.x86_64-linux","value":"/nix/store/b9l2rfg7w0bnbnjrdv1q2r5hdc4g7s4h-vm-test-run-nixpkgs-trivial-builders-references.drv"}
