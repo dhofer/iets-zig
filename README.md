@@ -12,6 +12,7 @@ zig build test
 ```
 
 The parity scripts in `scripts/` compare against Rust iets checked out as
-`../iets`. Contributor notes are in `AGENTS.md` and `docs/explanation/`.
+`../iets`. How this tree differs from Rust iets, and why, is in
+`docs/explanation/rust-to-zig.md`; contributor notes are in `AGENTS.md`.
 
 LGPL-2.1, as iets; see `COPYING`.

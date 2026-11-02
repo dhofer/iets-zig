@@ -11,7 +11,8 @@ This tree began as a port of Rust iets. The entries under
 the Rust tree, and they name its files and types; its git history holds the
 code. They still hold here, because the port kept those designs. The
 entries above that heading were measured on this binary, and this
-repository's git history holds them.
+repository's git history holds them. How the port went, and where the Zig
+design differs from Rust's, is on [From Rust iets to Zig](rust-to-zig.md).
 
 ## Huge pages that stop at the first failures
 
